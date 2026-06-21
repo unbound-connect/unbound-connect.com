@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -98,6 +100,7 @@ nav a {
 nav a:hover {
     color: #ff5a5a;
 }
+
 /* Hero Section */
 .hero {
     background-color: #f8f8f8;
@@ -191,7 +194,7 @@ nav a:hover {
     width: 100%;
     max-width: 380px;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     text-align: left;
 }
 
@@ -333,11 +336,19 @@ nav a:hover {
         font-size: 18px;
     }
 
-    .about, .services, .expertise, .careers, .contact {
+    .about,
+    .services,
+    .expertise,
+    .careers,
+    .contact {
         padding: 60px 20px;
     }
 
-    .about h2, .services h2, .expertise h2, .careers h2, .contact h2 {
+    .about h2,
+    .services h2,
+    .expertise h2,
+    .careers h2,
+    .contact h2 {
         font-size: 30px;
     }
 }
@@ -369,14 +380,16 @@ nav a:hover {
         position: fixed;
         top: 0;
         right: -100%;
-        width: 280px; /* Slide-out menu width */
+        width: 280px;
+        /* Slide-out menu width */
         height: 100vh;
         background-color: white;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        padding: 100px 40px 40px; /* Safe space at top for overlay */
+        padding: 100px 40px 40px;
+        /* Safe space at top for overlay */
         transition: right 0.3s cubic-bezier(0.16, 1, 0.3, 1);
         z-index: 1000;
         box-shadow: -5px 0 25px rgba(0, 0, 0, 0.15);
@@ -393,7 +406,8 @@ nav a:hover {
         width: 100%;
         padding-bottom: 8px;
         border-bottom: 1px solid #eee;
-        margin-left: 0; /* Reset desktop left margin */
+        margin-left: 0;
+        /* Reset desktop left margin */
     }
 
     /* Dimmed overlay backdrop when menu is open */
@@ -429,16 +443,25 @@ nav a:hover {
         margin-bottom: 30px;
     }
 
-    .about, .services, .expertise, .careers, .contact {
+    .about,
+    .services,
+    .expertise,
+    .careers,
+    .contact {
         padding: 50px 15px;
     }
 
-    .about h2, .services h2, .expertise h2, .careers h2, .contact h2 {
+    .about h2,
+    .services h2,
+    .expertise h2,
+    .careers h2,
+    .contact h2 {
         font-size: 26px;
         margin-bottom: 25px;
     }
 
-    .about p, .careers p {
+    .about p,
+    .careers p {
         font-size: 16px;
         line-height: 1.6;
     }
@@ -476,9 +499,10 @@ nav a:hover {
     .brand-text h1 {
         font-size: 18px;
     }
-    
+
     .brand-text p {
-        display: none; /* Hide tagline on extremely small viewports to save space */
+        display: none;
+        /* Hide tagline on extremely small viewports to save space */
     }
 
     .logo-section {
